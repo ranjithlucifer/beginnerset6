@@ -1,3 +1,3 @@
-n=input()
-for i in n:
+boom=input()
+for i in boom:
   print(i,end=" ")
