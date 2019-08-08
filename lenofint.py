@@ -1,2 +1,2 @@
-n=input()
-print(len(n))
+sun=input()
+print(len(sun))
