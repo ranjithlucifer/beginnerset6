@@ -1,5 +1,9 @@
 n=input()
-if n>='a' and n<='b' or n>='A' and n<='B' or n>='0' and n<='9':
+count=0
+for i in n:
+  if (i.isdigit() or i.isalpha()):
+    count+=1
+if count!=0:
   print("Yes")
 else:
   print("No")
