@@ -1,5 +1,5 @@
-n=int(input())
-if n%2==0:
-  print(n)
+monday=int(input())
+if monday%2==0:
+  print(monday)
 else:
-  print(n-1)
+  print(monday-1)
